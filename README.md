@@ -20,3 +20,35 @@ Before applying this configuration, ensure you have the following:
 - **Terraform** installed on your local machine.
 - **AWS CLI** configured with appropriate credentials and permissions to create resources in your AWS account.
 
+## Setup Instructions
+
+### 1. Clone the Repository
+
+Clone this repository to your local machine:
+
+## 2. Set Variables
+## Edit the terraform.tfvars file to set the necessary variables:
+
+## 3. Initialize Terraform
+Run the following command to initialize the Terraform configuration and download the required provider plugins:
+
+terraform init
+
+## 4. Plan the Infrastructure
+After initialization, you can run the following command to check the execution plan:
+
+terraform plan
+
+This will show you what resources will be created, modified, or destroyed.
+
+## 5. Apply the Configuration
+To create the infrastructure on AWS, run the following command:
+
+terraform apply
+Just so you know, you will be prompted to confirm the plan by typing yes.
+
+## 6. Destroy the Infrastructure
+To clean up and destroy the created resources, run:
+
+terraform destroy
+Again, you'll be prompted to confirm by typing yes.
