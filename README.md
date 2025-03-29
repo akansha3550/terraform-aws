@@ -24,7 +24,7 @@ Before applying this configuration, ensure you have the following:
 
 Clone this repository to your local machine: 
 
-**git clone <repo-url>**
+**git clone repo-url**
 
 **cd terraform-aws**
 
