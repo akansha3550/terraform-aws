@@ -1,5 +1,3 @@
-# terraform-aws
-
 # Terraform AWS Infrastructure Setup
 
 This repository contains Terraform configuration files to set up infrastructure on Amazon Web Services (AWS). The resources are created using the **AWS Provider** for Terraform and include components like VPC, Subnets, Internet Gateway, Route Tables, Security Groups, and EC2 instances.
@@ -32,7 +30,7 @@ Edit the terraform.tfvars file to set the necessary variables:
 ## 3. Initialize Terraform
 Run the following command to initialize the Terraform configuration and download the required provider plugins:
 
-terraform init
+**terraform init**
 
 ## 4. Plan the Infrastructure
 After initialization, you can run the following command to check the execution plan:
@@ -45,10 +43,13 @@ This will show you what resources will be created, modified, or destroyed.
 To create the infrastructure on AWS, run the following command:
 
 **terraform apply**
+
 Just so you know, you will be prompted to confirm the plan by typing yes.
 
 ## 6. Destroy the Infrastructure
+
 To clean up and destroy the created resources, run:
 
 **terraform destroy**
+
 Again, you'll be prompted to confirm by typing yes.
