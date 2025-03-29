@@ -20,11 +20,3 @@ Before applying this configuration, ensure you have the following:
 - **Terraform** installed on your local machine.
 - **AWS CLI** configured with appropriate credentials and permissions to create resources in your AWS account.
 
-## Setup Instructions
-
-### 1. Clone the Repository
-
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/yourusername/terraform-aws-infrastructure.git
-cd terraform-aws-infrastructure
